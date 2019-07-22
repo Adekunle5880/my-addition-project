@@ -1,7 +1,7 @@
 import random
 words = []
-with open('words.txt', 'r') as dictionary:
-    for word in the dictionary:
+with open('words.text.txt', 'r') as dictionary:
+    for word in dictionary:
         if '-' in word:
             continue
         words.append(word.replace('\n', ''))
